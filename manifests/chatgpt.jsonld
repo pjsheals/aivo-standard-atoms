@@ -1,0 +1,62 @@
+{
+    "@context": [
+        "https://schema.org",
+        {
+            "aivo": "https://aivostandard.org/ns/v1#"
+        }
+    ],
+    "@type": [
+        "DataCatalog",
+        "aivo:RepairAtomManifest"
+    ],
+    "@id": "https://aivomeridian.com/atoms/aivo-standard/manifests/chatgpt.jsonld",
+    "name": "AIVO Standard — ChatGPT repair atom manifest",
+    "description": "Per-platform repair atom manifest for AIVO Standard on ChatGPT. 2 atoms across filters: T0, T1.",
+    "schemaVersion": "aivo-mas-2.0",
+    "manifestVersion": "1.0",
+    "platform": "chatgpt",
+    "publisher": {
+        "@type": "Organization",
+        "name": "AIVO Research Intelligence Platform",
+        "url": "https://aivostandard.org"
+    },
+    "datePublished": "2026-05-14",
+    "dateModified": "2026-05-14",
+    "license": "CC-BY-4.0",
+    "about": {
+        "@type": "Organization",
+        "@id": "https://aivomeridian.com/atoms/aivo-standard-2026-05/#aivo-standard",
+        "name": "AIVO Standard"
+    },
+    "sourceProbeRun": {
+        "probeId": "346",
+        "probeTypes": [
+            "generic_4turn"
+        ],
+        "platform": "chatgpt",
+        "executedAt": "2026-04-25T14:18:40+00:00"
+    },
+    "atomCount": 2,
+    "filterCoverage": [
+        "T0",
+        "T1"
+    ],
+    "atoms": [
+        {
+            "@type": "aivo:DisplacementAtom",
+            "@id": "atom:aivo-standard:T0:chatgpt:v1",
+            "filterType": "T0",
+            "url": "https://aivomeridian.com/atoms/aivo-standard/T0/chatgpt-v1.jsonld",
+            "failureMode": "entity_recognition_gap",
+            "lastModified": "2026-05-14T20:10:35+00:00"
+        },
+        {
+            "@type": "aivo:DisplacementAtom",
+            "@id": "atom:aivo-standard:T1:chatgpt:v1",
+            "filterType": "T1",
+            "url": "https://aivomeridian.com/atoms/aivo-standard/T1/chatgpt-v1.jsonld",
+            "failureMode": "competitive_displacement",
+            "lastModified": "2026-05-14T20:11:24+00:00"
+        }
+    ]
+}
