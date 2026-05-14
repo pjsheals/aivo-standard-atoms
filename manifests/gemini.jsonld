@@ -1,0 +1,53 @@
+{
+    "@context": [
+        "https://schema.org",
+        {
+            "aivo": "https://aivostandard.org/ns/v1#"
+        }
+    ],
+    "@type": [
+        "DataCatalog",
+        "aivo:RepairAtomManifest"
+    ],
+    "@id": "https://aivomeridian.com/atoms/aivo-standard/manifests/gemini.jsonld",
+    "name": "AIVO Standard — Gemini repair atom manifest",
+    "description": "Per-platform repair atom manifest for AIVO Standard on Gemini. 1 atoms across filters: T0.",
+    "schemaVersion": "aivo-mas-2.0",
+    "manifestVersion": "1.0",
+    "platform": "gemini",
+    "publisher": {
+        "@type": "Organization",
+        "name": "AIVO Research Intelligence Platform",
+        "url": "https://aivostandard.org"
+    },
+    "datePublished": "2026-05-14",
+    "dateModified": "2026-05-14",
+    "license": "CC-BY-4.0",
+    "about": {
+        "@type": "Organization",
+        "@id": "https://aivomeridian.com/atoms/aivo-standard-2026-05/#aivo-standard",
+        "name": "AIVO Standard"
+    },
+    "sourceProbeRun": {
+        "probeId": "352",
+        "probeTypes": [
+            "generic_4turn"
+        ],
+        "platform": "gemini",
+        "executedAt": "2026-04-25T14:20:18+00:00"
+    },
+    "atomCount": 1,
+    "filterCoverage": [
+        "T0"
+    ],
+    "atoms": [
+        {
+            "@type": "aivo:DisplacementAtom",
+            "@id": "atom:aivo-standard:T0:gemini:v1",
+            "filterType": "T0",
+            "url": "https://aivomeridian.com/atoms/aivo-standard/T0/gemini-v1.jsonld",
+            "failureMode": "entity_recognition_gap",
+            "lastModified": "2026-05-14T20:10:48+00:00"
+        }
+    ]
+}
