@@ -1,0 +1,54 @@
+{
+    "@context": [
+        "https://schema.org",
+        {
+            "aivo": "https://aivostandard.org/ns/v1#"
+        }
+    ],
+    "@type": [
+        "DataCatalog",
+        "aivo:RepairAtomManifest"
+    ],
+    "@id": "https://aivomeridian.com/atoms/aivo-standard/manifests/perplexity.jsonld",
+    "name": "AIVO Standard — Perplexity repair atom manifest",
+    "description": "Per-platform repair atom manifest for AIVO Standard on Perplexity. 1 atoms across filters: T7.",
+    "schemaVersion": "aivo-mas-2.0",
+    "manifestVersion": "1.0",
+    "platform": "perplexity",
+    "publisher": {
+        "@type": "Organization",
+        "name": "AIVO Research Intelligence Platform",
+        "url": "https://aivostandard.org"
+    },
+    "datePublished": "2026-05-14",
+    "dateModified": "2026-05-14",
+    "license": "CC-BY-4.0",
+    "about": {
+        "@type": "Organization",
+        "@id": "https://aivomeridian.com/atoms/aivo-standard-2026-05/#aivo-standard",
+        "name": "AIVO Standard"
+    },
+    "sourceProbeRun": {
+        "probeId": "354",
+        "probeTypes": [
+            "generic_4turn"
+        ],
+        "platform": "perplexity",
+        "executedAt": "2026-04-25T14:22:47+00:00"
+    },
+    "atomCount": 1,
+    "filterCoverage": [
+        "T7"
+    ],
+    "atoms": [
+        {
+            "@type": "aivo:DisplacementAtom",
+            "@id": "atom:aivo-standard:T7:perplexity:v1",
+            "filterType": "T7",
+            "url": "https://aivomeridian.com/atoms/aivo-standard/T7/perplexity-v1.jsonld",
+            "failureMode": "pricing_evidence_gap",
+            "doi": "10.5281/zenodo.20188393",
+            "lastModified": "2026-05-14T20:58:48+00:00"
+        }
+    ]
+}
