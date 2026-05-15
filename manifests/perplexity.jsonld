@@ -20,8 +20,8 @@
         "name": "AIVO Research Intelligence Platform",
         "url": "https://aivostandard.org"
     },
-    "datePublished": "2026-05-14",
-    "dateModified": "2026-05-14",
+    "datePublished": "2026-05-15",
+    "dateModified": "2026-05-15",
     "license": "CC-BY-4.0",
     "about": {
         "@type": "Organization",
@@ -29,12 +29,12 @@
         "name": "AIVO Standard"
     },
     "sourceProbeRun": {
-        "probeId": "354",
+        "probeId": "981",
         "probeTypes": [
-            "generic_4turn"
+            "anchored_4turn"
         ],
         "platform": "perplexity",
-        "executedAt": "2026-04-25T14:22:47+00:00"
+        "executedAt": "2026-05-14T10:04:51+00:00"
     },
     "atomCount": 1,
     "filterCoverage": [
@@ -48,7 +48,7 @@
             "url": "https://aivomeridian.com/atoms/aivo-standard/T7/perplexity-v1.jsonld",
             "failureMode": "pricing_evidence_gap",
             "doi": "10.5281/zenodo.20188393",
-            "lastModified": "2026-05-14T20:58:48+00:00"
+            "lastModified": "2026-05-14T20:59:15+00:00"
         }
     ]
 }
