@@ -20,8 +20,8 @@
         "name": "AIVO Research Intelligence Platform",
         "url": "https://aivostandard.org"
     },
-    "datePublished": "2026-05-14",
-    "dateModified": "2026-05-14",
+    "datePublished": "2026-05-15",
+    "dateModified": "2026-05-15",
     "license": "CC-BY-4.0",
     "about": {
         "@type": "Organization",
@@ -29,12 +29,12 @@
         "name": "AIVO Standard"
     },
     "sourceProbeRun": {
-        "probeId": "352",
+        "probeId": "985",
         "probeTypes": [
-            "generic_4turn"
+            "anchored_4turn"
         ],
         "platform": "gemini",
-        "executedAt": "2026-04-25T14:20:18+00:00"
+        "executedAt": "2026-05-14T10:02:01+00:00"
     },
     "atomCount": 1,
     "filterCoverage": [
@@ -47,7 +47,7 @@
             "filterType": "T0",
             "url": "https://aivomeridian.com/atoms/aivo-standard/T0/gemini-v1.jsonld",
             "failureMode": "entity_recognition_gap",
-            "lastModified": "2026-05-14T20:10:48+00:00"
+            "lastModified": "2026-05-14T20:11:23+00:00"
         }
     ]
 }
