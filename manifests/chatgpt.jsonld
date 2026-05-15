@@ -20,8 +20,8 @@
         "name": "AIVO Research Intelligence Platform",
         "url": "https://aivostandard.org"
     },
-    "datePublished": "2026-05-14",
-    "dateModified": "2026-05-14",
+    "datePublished": "2026-05-15",
+    "dateModified": "2026-05-15",
     "license": "CC-BY-4.0",
     "about": {
         "@type": "Organization",
@@ -29,12 +29,12 @@
         "name": "AIVO Standard"
     },
     "sourceProbeRun": {
-        "probeId": "346",
+        "probeId": "983",
         "probeTypes": [
-            "generic_4turn"
+            "anchored_4turn"
         ],
         "platform": "chatgpt",
-        "executedAt": "2026-04-25T14:18:40+00:00"
+        "executedAt": "2026-05-14T10:00:25+00:00"
     },
     "atomCount": 2,
     "filterCoverage": [
@@ -56,7 +56,8 @@
             "filterType": "T1",
             "url": "https://aivomeridian.com/atoms/aivo-standard/T1/chatgpt-v1.jsonld",
             "failureMode": "competitive_displacement",
-            "lastModified": "2026-05-14T20:11:24+00:00"
+            "doi": "10.5281/zenodo.20187827",
+            "lastModified": "2026-05-14T20:24:38+00:00"
         }
     ]
 }
