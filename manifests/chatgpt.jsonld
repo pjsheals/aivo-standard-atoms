@@ -29,12 +29,12 @@
         "name": "AIVO Standard"
     },
     "sourceProbeRun": {
-        "probeId": "983",
+        "probeId": "346",
         "probeTypes": [
-            "anchored_4turn"
+            "generic_4turn"
         ],
         "platform": "chatgpt",
-        "executedAt": "2026-05-14T10:00:25+00:00"
+        "executedAt": "2026-04-25T14:18:40+00:00"
     },
     "atomCount": 2,
     "filterCoverage": [
@@ -48,7 +48,8 @@
             "filterType": "T0",
             "url": "https://aivomeridian.com/atoms/aivo-standard/T0/chatgpt-v1.jsonld",
             "failureMode": "entity_recognition_gap",
-            "lastModified": "2026-05-14T20:10:35+00:00"
+            "doi": "10.5281/zenodo.20213319",
+            "lastModified": "2026-05-15T17:42:22+00:00"
         },
         {
             "@type": "aivo:DisplacementAtom",
